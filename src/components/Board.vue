@@ -12,7 +12,6 @@ export default {
   props: ["id"],
   methods: {
     drop: (e) => {
-      console.log("sth is happening");
       const card_id = e.dataTransfer.getData("card_id");
       const card = document.getElementById(card_id);
 

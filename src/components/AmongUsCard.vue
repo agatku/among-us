@@ -11,8 +11,10 @@
       :draggable="false"
       aria-hidden="true"
     />
-    <slot />
-    ({{ id }})
+    <div class="card-info">
+      <p contenteditable="true">name</p>
+      <p>({{ id }})</p>
+    </div>
   </div>
 </template>
 
@@ -31,5 +33,11 @@ export default {
 <style>
 .card {
   display: inline-block;
+}
+
+.card-info {
+  display: inline-block;
+  margin: 0px 5px;
+  vertical-align: top;
 }
 </style>
