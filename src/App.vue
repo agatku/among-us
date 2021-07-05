@@ -104,5 +104,6 @@ h2 {
   border-radius: 25px;
   margin: 2%;
   padding: 5%;
+  overflow: auto;
 }
 </style>

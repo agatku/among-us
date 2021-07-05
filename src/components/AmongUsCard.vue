@@ -12,7 +12,7 @@
       aria-hidden="true"
     />
     <div class="card-info">
-      <p contenteditable="true">name</p>
+      <p contenteditable="true">nickname</p>
       <p>({{ id }})</p>
     </div>
   </div>
