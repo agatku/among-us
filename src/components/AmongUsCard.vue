@@ -23,10 +23,13 @@ export default {
     dragStart: (e) => {
       const target = e.target;
       e.dataTransfer.setData("card_id", target.id);
-      // setTimeout(() => {
-      //   target.style.display = "none";
-      // }, 0);
     },
   },
 };
 </script>
+
+<style>
+.card {
+  display: inline-block;
+}
+</style>

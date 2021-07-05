@@ -8,10 +8,23 @@
     <Board id="likely-innocent"> </Board>
     <Board id="unknown">
       <Card id="banana" draggable="true"> </Card>
-      <Card id="gray" draggable="true"> </Card>
+      <Card id="black" draggable="true"> </Card>
+      <Card id="blue" draggable="true"> </Card>
       <Card id="brown" draggable="true"> </Card>
-      <Card id="yellow" draggable="true"> </Card>
+      <Card id="coral" draggable="true"> </Card>
+      <Card id="cyan" draggable="true"> </Card>
+      <Card id="gray" draggable="true"> </Card>
+      <Card id="green" draggable="true"> </Card>
+      <Card id="lime" draggable="true"> </Card>
+      <Card id="maroon" draggable="true"> </Card>
+      <Card id="orange" draggable="true"> </Card>
+      <Card id="pink" draggable="true"> </Card>
+      <Card id="purple" draggable="true"> </Card>
+      <Card id="red" draggable="true"> </Card>
       <Card id="rose" draggable="true"> </Card>
+      <Card id="tan" draggable="true"> </Card>
+      <Card id="white" draggable="true"> </Card>
+      <Card id="yellow" draggable="true"> </Card>
     </Board>
     <Board id="sus"> </Board>
     <Board id="impostor"> </Board>
