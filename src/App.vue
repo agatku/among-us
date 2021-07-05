@@ -1,6 +1,8 @@
 <template>
   <header class="info">
     <h1>Welcome to Among us tracker</h1>
+
+    <Bin />
   </header>
 
   <main class="flexbox">
@@ -35,11 +37,14 @@
 import Board from "./components/Board.vue";
 import Card from "./components/AmongUsCard.vue";
 
+import Bin from "./components/Bin.vue";
+
 export default {
   name: "App",
   components: {
     Board,
     Card,
+    Bin,
   },
 };
 </script>
@@ -53,6 +58,7 @@ body {
 
 h1 {
   margin: 0px;
+  padding-bottom: 10px;
 }
 
 h2 {
@@ -67,11 +73,18 @@ h2 {
   height: 100%;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 /* div {
   border: 1px solid black;
 } */
 
 .info {
+  padding: 10px;
   height: 20%;
 }
 
