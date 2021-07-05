@@ -51,6 +51,14 @@ body {
   margin: 0px;
 }
 
+h1 {
+  margin: 0px;
+}
+
+h2 {
+  text-align: center;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -59,9 +67,9 @@ body {
   height: 100%;
 }
 
-div {
+/* div {
   border: 1px solid black;
-}
+} */
 
 .info {
   height: 20%;
@@ -73,8 +81,15 @@ div {
   width: 100%;
 }
 
-.board {
-  border: 1px solid blueviolet;
+.column {
   width: 20%;
+}
+
+.board {
+  height: 80%;
+  border: 1px solid blueviolet;
+  border-radius: 25px;
+  margin: 2%;
+  padding: 5%;
 }
 </style>
