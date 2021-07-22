@@ -1,5 +1,8 @@
 # among-us-tracker
 
+This is my silly project to learn vue.js
+It's not mobile friendly, don't judge me.
+
 ## Project setup
 
 ```
