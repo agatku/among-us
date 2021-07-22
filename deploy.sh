@@ -13,7 +13,7 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# deploying to https://<USERNAME>.github.io/<REPO>
+# deploying to https://<USERNAME>.github.io/<REPO>, to gh-pages branch
 git push -f git@github.com:agatku/among-us.git main:gh-pages
 # git push origin HEAD:main
 
